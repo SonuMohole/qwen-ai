@@ -1,0 +1,32 @@
+# --- API Framework & Server ---
+fastapi                       # High-performance web framework
+uvicorn[standard]             # ASGI server to run FastAPI
+python-multipart              # Required for handling File Uploads
+requests                      # Standard HTTP library
+pydantic                      # Data validation
+
+# --- AI Model Interface ---
+ollama                        # 🚨 REQUIRED: Communicates with local LLMs (model_manager.py)
+
+# --- File Processing & Extraction ---
+pandas                        # 🚨 REQUIRED: For CSV data handling (extraction.py)
+openpyxl                      # 🚨 REQUIRED: Engine for reading .xlsx files
+pymupdf                       # 🚨 REQUIRED: For PDF processing (import fitz)
+pymupdf4llm                   # 🚨 REQUIRED: Layout-aware PDF to Markdown conversion
+gliner                        # 🚨 REQUIRED: For Cyber-Specific Entity Recognition (NER)
+python-docx                   # 🚨 REQUIRED: For Word documents
+
+# --- Database & Environment ---
+psycopg2-binary               # PostgreSQL database adapter
+python-dotenv                 # To read .env file variables
+
+# --- Vector Database & RAG Core ---
+chromadb                      # Vector store (Persistent storage)
+llama-index-core              # RAG Orchestration & Indexing logic
+llama-index-vector-stores-chroma  # Connector for ChromaDB
+llama-index-embeddings-huggingface # Connector for Nomic Embeddings
+
+# --- Machine Learning Utilities ---
+sentence-transformers         # Underlying embedding model support
+numpy                         # Utility for handling vector arrays
+tqdm                          # Progress bar utility
