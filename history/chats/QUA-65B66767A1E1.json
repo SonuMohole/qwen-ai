@@ -1,0 +1,27 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-01-30T10:13:37.336134",
+      "role": "user",
+      "content": "Give me list of all medium severity vulnerablities ?"
+    },
+    {
+      "timestamp": "2026-01-30T10:13:37.336134",
+      "role": "assistant",
+      "content": "### Summary of Medium Severity Vulnerabilities from LATEST_REPORT\n\nThe following list contains medium severity vulnerabilities identified in the latest report, QCT_QYRUS_UAT_Web App_Penetration_Testing_Detailed_Report_v1.0-ks1.0.docx uploaded on 2026-01-30:\n\nNo specific entries for Medium Severity Vulnerabilities were found within this particular document block provided.\n\n### Analysis\nBased on the information available in LATEST_REPORT, there are no medium severity vulnerabilities listed explicitly under any section of the report as shown above. The content primarily focuses on defining risk criteria and high-severity issues without detailing individual findings categorized specifically at a MEDIUM level severity for remediation actions or summary sections provided.\n\nFor an accurate list of all Medium Severity Vulnerabilities, further review of other relevant parts of this detailed penetration testing document is necessary."
+    },
+    {
+      "timestamp": "2026-01-30T10:30:59.162350",
+      "role": "user",
+      "content": "Give me list of all medium severity vulnerablities ?"
+    },
+    {
+      "timestamp": "2026-01-30T10:30:59.162350",
+      "role": "assistant",
+      "content": "### Summary of Medium Severity Vulnerabilities\n\nThe latest report, **QCT_QYRUS_UAT_Web App_Penetration_Testing_Detailed_Report_v1.0-ks1.0.docx** uploaded on **2026-01-30**, contains the following medium severity vulnerabilities:\n\n#### Exposed Hardcoded Secrets & Credentials (MEDIUM)\n- **Severity**: Medium\n- **Asset**: Unknown_Device\n- **Affected URL**: https://uat.qyrus.com/main.09be6717d5fe1b21.js\n\n**Description:**\nA vulnerability has been identified due to the exposure of hardcoded secrets and credentials within publicly accessible JavaScript source files, increasing the risk for unauthorized access.\n\n**Impact:**\n- Access Protected Services\n- Abuse Application Functionality\n- Facilitate Further Attacks\n- Cause Information Disclosure\n\nThe likelihood of this being exploited is Medium. The report recommends removing all hardcoded secrets from code repositories, using secure secret management solutions, rotating and revoking exposed credentials immediately, restricting client-side access to sensitive data, enforcing least privilege access, implementing automated secret scanning in CI/CD pipelines, and conducting regular security audits.\n\n**References:**\n- OWASP A04:2025 - Cryptographic Failures\n- CWE-522 & CWE-798\n\nThis is the only medium severity vulnerability listed in this report."
+    }
+  ],
+  "user_id": "jayesh.gavit@quasarcybertech.com",
+  "timestamp": "2026-01-30T10:13:37.336134",
+  "last_updated": "2026-01-30T10:30:59.163910"
+}

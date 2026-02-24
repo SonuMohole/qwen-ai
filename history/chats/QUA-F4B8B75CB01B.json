@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-01-30T10:55:16.129116",
+      "role": "user",
+      "content": "Give me list of all the High severity vulnerablities ?"
+    },
+    {
+      "timestamp": "2026-01-30T10:55:16.129116",
+      "role": "assistant",
+      "content": "Here is the list of all High severity vulnerabilities:\n\n- **Unauthorized Role Modification (SuperUser to any Lower-level Role)**\n  - **Asset**: Unknown_Device\n  - **Description**:\n    An attacker can exploit this vulnerability by manipulating authorization controls, compromising account integrity, performing privilege abuse, and impacting business operations. This could lead to data tampering, service disruption, and loss of trust in access control mechanisms.\n\n- **Unauthorized Role Assignment via Parameter Tampering**\n  - **Asset**: Unknown_Device\n  - **Description**:\n    An attacker can exploit this vulnerability by escalating privileges illegitimately through parameter manipulation without proper authorization checks. This could lead to unauthorized admin access with significant security implications, including data exposure and configuration tampering.\n\n- **Privilege Escalation via Token Tampering (Insecure Role Modification)**\n  - **Asset**: Unknown_Device\n  - **Description**:\n    An attacker can exploit this vulnerability by modifying the role parameter stored in `id_token_claims_obj` to gain higher-level access, such as Admin functionality. This could lead to unauthorized access and manipulation of organizational data.\n\n- **Unauthorized Executable File Access (QloudBridge, QSpy)**\n  - **Asset**: Unknown_Device\n  - **Description**:\n    An attacker can exploit this vulnerability by downloading sensitive application binaries directly via publicly accessible links without authorization. This could result in intellectual property theft or exposure of proprietary information.\n\n- **Password Reset Link Does Not Expire After Use (Insecure Password Reset Functionality)**\n  - **Asset**: Unknown_Device\n  - **Description**:\n    An attacker can exploit this vulnerability by reusing password reset links to take over user accounts, bypass authentication controls, and cause service disruption. This could result in full account compromise if not properly invalidated.\n\n- **Privilege Escalation via Token Tampering (Insecure Role Modification)**\n  - **Asset**: Unknown_Device\n  - **Description**:\n    An attacker can exploit this vulnerability by tampering with the `id_token_claims_obj` and role values to escalate privileges, bypassing RBAC. This could lead to unauthorized access to critical features or data breaches.\n\nThese vulnerabilities are assessed as High severity due to their significant business impact and likelihood of exploitation if not remediated promptly."
+    }
+  ],
+  "user_id": "jayesh.gavit@quasarcybertech.com",
+  "timestamp": "2026-01-30T10:55:16.129116",
+  "last_updated": "2026-01-30T10:55:16.129903"
+}

@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-01-30T10:44:25.594432",
+      "role": "user",
+      "content": "Give me a list of all Medium severity vulnerablity ?"
+    },
+    {
+      "timestamp": "2026-01-30T10:44:25.594432",
+      "role": "assistant",
+      "content": "### List of Medium Severity Vulnerabilities\n\n#### 1. Internal IP Disclosure (MEDIUM)\n- **Severity**: MEDIUM\n- **Asset**: Unknown_Device\n- **Affected URL**: https://uat.qyrus.com/main.09be6717d5fe1b21.js\n- **Dimensions**: CWE-200, CWE-201\n- **OWASP Reference**: A04:2025 - Cryptographic Failures\n\n**Description**\nThe application unintentionally includes internal network details within the source code of JavaScript files served to users. This can assist attackers in crafting more targeted attacks and increase attack surface awareness.\n\n**Impact**\nAn attacker exploiting this vulnerability could gain insight into the internal network architecture, use exposed IPs for further attacks like SSRF or lateral movement, and identify sensitive endpoints that should not be publicly accessible.\n\n**Recommendation**\n- Remove hardcoded internal IP addresses.\n- Implement proper configuration management practices to ensure environment-specific values are stored securely on serverside configurations.\n- Apply code obfuscation/minification techniques.\n- Enforce secure build/deployment processes with separate environments for development, staging, and production.\n- Restrict network exposure through firewall rules and ACLs.\n\n#### 2. Exposed Hardcoded Secrets & Credentials (MEDIUM)\n- **Severity**: MEDIUM\n- **Asset**: Unknown_Device\n- **Affected URL**: https://uat.qyrus.com/main.09be6717d5fe1b21.js\n- **Dimensions**: CWE-522, CWE-798\n\n**Description**\nThe application exposes hardcoded secrets and credentials within the source code of JavaScript files served to users.\n\n**Impact**\nExposing such information can allow attackers to exploit sensitive data directly or use it in broader attack chains against internal systems.\n\n**Recommendation**\nFollow best practices for secure configuration management, avoid hardcoding any secret values client-side. Implement proper access control mechanisms and conduct regular security scans/reviews before deployment."
+    }
+  ],
+  "user_id": "jayesh.gavit@quasarcybertech.com",
+  "timestamp": "2026-01-30T10:44:25.594432",
+  "last_updated": "2026-01-30T10:44:25.594432"
+}

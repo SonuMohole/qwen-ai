@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-02-14T12:51:41.868526",
+      "role": "user",
+      "content": "give me low severity vulnerabilities"
+    },
+    {
+      "timestamp": "2026-02-14T12:51:41.868551",
+      "role": "assistant",
+      "content": "**Low Severity Vulnerabilities Identified in LATEST_REPORT**\n\n- **Internal IP Disclosure via Login Error Email (LOW)**\n   - **Asset**: Unknown_Device\n   - **Affected URL**: https://uat.lorenipsum.com/login\n   - **CVSS Score**: 3.1\n\n### Description:\nAn attacker can exploit this vulnerability to gain insight into the internal network by observing login error emails that reveal internal IP addresses, which could assist in reconnaissance activities and slightly increase the overall attack surface.\n\n**Recommendation:**\n- Avoid Including Internal Network Information in Emails.\n- Use Generic Error Messages for Failed Logins (e.g., \"Login attempt failed\" or \"Invalid credentials\").\n- Sanitize Email Templates and Server Responses to remove any system-generated debug information before sending them out.\n- Secure server logs separately from application logging, ensuring internal IPs are not exposed.\n\n**References:**\nhttps://owasp.org/www-project-secure-coding-practices-quick-reference-guide/\n\n### Evidence:\nPerformed a failed login attempt which disclosed the application\u2019s internal IP address in error messages."
+    }
+  ],
+  "user_id": "paragjpatil03@gmail.com",
+  "timestamp": "2026-02-14T12:51:41.868554",
+  "last_updated": "2026-02-14T12:51:41.868566"
+}

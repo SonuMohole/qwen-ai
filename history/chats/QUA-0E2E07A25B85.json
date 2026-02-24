@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-01-29T18:28:19.177192",
+      "role": "user",
+      "content": "Give me my high Severity vulnerablities ?"
+    },
+    {
+      "timestamp": "2026-01-29T18:28:19.177780",
+      "role": "assistant",
+      "content": "### High Severity Vulnerabilities Summary\n\nThe latest report, **QCT_QYRUS_UAT_Web App_Penetration_Testing_Detailed_Report_v1.0-ks1.0.docx** uploaded on 2026-01-29 at 18:25:09, contains the following high severity vulnerabilities:\n\n#### High Severity Vulnerabilities\n\nNo specific HIGH severity findings are listed in this latest report. The provided content describes a MEDIUM severity vulnerability related to internal IP disclosure.\n\n### Conclusion\nThere were no explicit high-severity (CVSS score of 7.0 \u2013 8.9) vulnerabilities identified within the given LATEST_REPORT block data for QCT_QYRUS_UAT Web App Penetration Testing Detailed Report v1.0-ks1.0.docx dated on January 29, 2026.\n\nIf you need further analysis or additional details from other parts of your report, please provide more specific sections to review."
+    }
+  ],
+  "user_id": "jayesh.gavit@quasarcybertech.com",
+  "timestamp": "2026-01-29T18:28:19.177780",
+  "last_updated": "2026-01-29T18:28:19.177780"
+}

@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-01-30T11:28:33.275377",
+      "role": "user",
+      "content": "what is the cvss score of SERVER BANNER DISCLOSURE"
+    },
+    {
+      "timestamp": "2026-01-30T11:28:33.275377",
+      "role": "assistant",
+      "content": "I could not find that specific CVSS score for **SERVER BANNER DISCLOSURE** in the provided report excerpts. The context does provide general guidelines on how QuasarCyberTech categorizes severities based on CVSS scores but doesn't list a particular CVSS value for this vulnerability type.\n\n### Findings:\n- No explicit mention of SERVER BANNER DISCLOSURE or its specific CVSS score.\n  \nIf you need the exact CVSS score, it would be best to refer directly to the Common Vulnerability Scoring System (CVSS) documentation or consult a more detailed report that includes this information."
+    }
+  ],
+  "user_id": "jayesh.gavit@quasarcybertech.com",
+  "timestamp": "2026-01-30T11:28:33.275377",
+  "last_updated": "2026-01-30T11:28:33.276388"
+}

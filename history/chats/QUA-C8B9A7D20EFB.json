@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-02-11T18:07:04.703656",
+      "role": "user",
+      "content": "what is afected url for EXPOSED HARDCODED SECRETS & CREDENTIALS"
+    },
+    {
+      "timestamp": "2026-02-11T18:07:04.703680",
+      "role": "assistant",
+      "content": "The affected URL for **EXPOSED HARDCODED SECRETS & CREDENTIALS** is:\n\n- https://uat.lorenipsum.com/main.09be6717d5fe1b21.js\n\n### Findings:\n- **Title**: Exposed Hardcoded Secrets & Credentials (MEDIUM)\n  - **Asset**: Unknown_Device\n  - **Affected URL**: https://uat.lorenipsum.com/main.09be6717d5fe1b21.js\n  - **Description**:\n    An attacker can exploit this vulnerability to access protected services, abuse application functionality, facilitate further attacks, and cause information disclosure by leveraging exposed API keys, tokens, or credentials.\n\n### Recommendations:\n- Remove hardcoded secrets from source code.\n- Use secure secret management solutions like environment variables or dedicated vaults for storing sensitive data securely on the server side."
+    }
+  ],
+  "user_id": "paragjpatil03@gmail.com",
+  "timestamp": "2026-02-11T18:07:04.703683",
+  "last_updated": "2026-02-11T18:07:04.703694"
+}

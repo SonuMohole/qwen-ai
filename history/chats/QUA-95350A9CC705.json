@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-01-29T19:02:46.606727",
+      "role": "user",
+      "content": "Give me list of low severity vulnerablities ?"
+    },
+    {
+      "timestamp": "2026-01-29T19:02:46.606727",
+      "role": "assistant",
+      "content": "### Summary of Low Severity Vulnerabilities\n\nBased on the provided LATEST_REPORT from QCT_QYRUS_UAT_Web App_Penetration_Testing_Detailed_Report_v1.0-ks1.0.docx uploaded on 2026-01-29, there are no specific low severity vulnerabilities listed in detail within this report.\n\nThe document focuses primarily on high and critical risks that require immediate attention for remediation actions to ensure the application's security before going live. The risk definitions provided indicate what constitutes a LOW severity vulnerability but do not list any actual findings under this category from the penetration testing conducted.\n\nTherefore, no low-severity vulnerabilities are identified in the latest report as of 2026-01-29."
+    }
+  ],
+  "user_id": "jayesh.gavit@quasarcybertech.com",
+  "timestamp": "2026-01-29T19:02:46.606727",
+  "last_updated": "2026-01-29T19:02:46.606727"
+}

@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-02-09T14:41:55.716839",
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "timestamp": "2026-02-09T14:41:55.716865",
+      "role": "assistant",
+      "content": "Hello. How may I assist you with information about Q stellar or cybersecurity analysis today?"
+    }
+  ],
+  "user_id": "kishor.sonawane@quasarcybertech.com",
+  "timestamp": "2026-02-09T14:41:55.716868",
+  "last_updated": "2026-02-09T14:41:55.716879"
+}
